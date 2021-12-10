@@ -492,14 +492,14 @@ padding-bottom:3vw;
     .fundo{
         background-color:#2D2D2D;
         background-size: cover;
-        height: 265vh;
+        height: 268vh;
         margin-top:-14vw;
     }
     h3{
         padding:13vw 13vw 4vw 13vw ;
-        margin-left:4vw;
+        margin-left:20vw;
         color:white;
-        font-size:3vw;
+        font-size:6vw;
     
     }
     .espadaverde{
@@ -534,7 +534,7 @@ padding-bottom:3vw;
         position:absolute;
         left:10vw;
         width:80vw;
-        top:367vw;
+        top:370vw;
     }
     .hierarquia{
         width:99vw;
