@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700;800&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -27,13 +27,14 @@ html{
 .star{
     width: 25vw;
     margin:16vw;
-    margin-top: 19vw;
+    padding-top: 4vw;
+    
     
 }
 .wars{
     width: 25vw;
     margin:6vw;
-    margin-top:9vw;
+    padding-top:3vw;
 }
 .logolegiao{
     position: absolute;
@@ -46,8 +47,9 @@ html{
 }
 main{
   background-image: url(./image/fundo\ 2.png);
+  background-size:60%;
   width:100%;
-  height:180vh;
+  height:200vh;
   background-repeat: no-repeat;
   margin-top:-8vw;
 }
@@ -90,6 +92,17 @@ main{
     left:45vw;
     text-transform:uppercase;
 }
+.joguinho{
+    font-weight: 900;
+    font-size: 3.3vw;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+}
+span{
+    font-weight: 900;
+    margin-left:1vw;
+}
 ul{
    
 }
@@ -120,7 +133,7 @@ li:hover{
 .fundo{
     background-color:#2D2D2D;
     background-size: cover;
-    height:300vh;
+    height:296vh;
     margin-top:-7vw;
 }
 h3{
@@ -140,10 +153,8 @@ h3{
 .grafico,.robos,.soldados,.aeronave{
     width:25vw;
     margin-left:vw;
-    width:22vw;
+    width:22vw;;
 }
-.novo
-   
 .robos{
 
 }
@@ -169,3 +180,560 @@ h3{
     margin-left:6vw;
     margin-top:4vw;
 }
+figcaption{
+    font-size:1vw;
+    font-weight:200 ;
+    color: white;
+    display:flex;
+    justify-content:flex-end;
+    padding-right:5vw;
+    padding-top:1vw;
+    
+
+}
+.legenda{
+    margin-top:-1vw;
+}
+.branco{
+    width:30vw;
+    position: absolute;
+    left:5vw;
+    top:237vw;
+}
+.agapai{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.agatres{
+    font-size: 3vw;
+}
+.fundotres{
+    width:100%;
+    height:40%;
+    background-color: white;
+}
+.buttonpai{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left:30vw;   
+}
+button{
+    width:14vw;
+    height: 7vh;
+    background-color: black;
+    font-size:1.5vw;
+    color:white;
+}
+.paragrafo{
+    font-size:1.5vw;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numeros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.3vw;
+    margin-top: 3vw;
+    margin-bottom:2vw ;
+}
+.lineum,.linedois,.linetres{
+    width:7vw;
+    border:solid;
+    border-color:black;
+    margin-top:2vw;
+    margin-left:4vw;
+}
+.buttonum:hover{
+    font-weight:900;
+}
+.buttonprimeiro:hover{
+    cursor:pointer;
+    background-image:conic-gradient(tomato 50%,black 50%) ;
+    
+ 
+}
+.lineum:hover{
+    border-color: tomato;
+}
+.buttondois:hover{
+    font-weight:900;
+}
+.buttonsegundo:hover{
+    cursor:pointer;
+    background-image:conic-gradient(tomato 50%,black 50%) ;
+}
+.linedois:hover{
+    border-color: tomato;
+}
+.buttontres:hover{
+    font-weight:900;
+}
+.buttonterceiro:hover{
+    cursor:pointer;
+    background-image:conic-gradient(tomato 50%,black 50%) ;
+}
+.linetres:hover{
+    border-color: tomato;
+}
+footer{
+    background-color:#FF5A56;
+    width:63;
+    height:136vh;
+    position: absolute;
+    top:295vw;
+    
+   
+}
+.texto{
+    font-weight: 900;
+    font-size:3vw;
+    color:white;
+    padding-bottom:2vw;
+    padding-top:5vw;
+}
+.textodois{
+    font-size:1.3vw;
+    font-weight: 200;
+    color:white;    
+    display: flex;
+    justify-content: start;
+}
+.containerfooter{
+    padding-left:10vw;
+    padding-left:10vw;
+}
+.apps{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-right:14vw;
+    padding-top:2vw;
+}
+.google,.store{
+    width:20vw;
+    padding-left:2vw;
+}
+.linhaum{
+    width:36vw;
+    height:1vh;
+    border:solid;
+    border-color:#d74430 ;
+    margin-top:5vw;
+    margin-right: 14vw;
+}
+.linhapai{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:2vw;
+}
+.logostar{
+    width:18vw;
+}
+.logowars{
+padding-left: 8vw;
+padding-top: 4vw;
+padding-bottom:3vw;
+
+}
+.penultimo{
+    padding-top: 2vw;
+    padding-left:8vw;
+    display:flex;
+    justify-content: start;
+    
+}
+.ultimo{
+    font-size:1.6vw;
+    font-weight: 200;
+    color:white;
+}
+.ultimos{
+    position:absolute;
+    left:50vw;
+    bottom:7vw;
+}
+.ultimas{
+    width:48vw;
+    height:140vh;
+}
+@media(max-width: 575px){
+    .bonecao{
+        width: 70vw;
+        position: absolute; 
+        left: 8vh;
+        
+     }
+     .star{
+         width: 25vw;
+         position:absolute;
+         top:7vw;
+         left:4vw;
+         
+         
+     }
+     .wars{
+         width: 25vw;
+         position: absolute;
+         top:17vw;
+         left:60vw;
+     }
+     .logolegiao{
+         position: absolute;
+         left:80vw;
+         top:35vw;
+     }
+     .legiao{
+         width:10vw;
+         
+     }
+     main{
+        background-image: url(./image/fundo\ 2.png);
+        background-size:60%;
+        width:100%;
+        height:300vh;
+        background-repeat: no-repeat;
+        margin-top:-105vw;
+      }
+      .vermelha{
+          position:absolute;
+          left:35vw;
+          bottom:1vh;   
+          top:50vw;
+          width:55vw;
+          height:60vh;
+      }
+      .contain{
+        display:flex;
+        justify-content:end;
+        
+    }
+    .segundo{
+        background-image:url(./image/segundaimagem.png) ;
+        background-size: 64.5vh;
+        background-repeat: no-repeat;
+        width:140vw;
+        height: 100vw;
+        position:absolute;
+        left:2.7vw;
+        top:140vw;
+    }
+    .sobre{
+       margin-top:100vw;
+       margin-right:3vw;
+       width:0vw; 
+    }
+    .linha{
+        display:flex;
+        justify-content:center;
+    }
+    .reta{
+        width:79.5vw;
+        margin-top:9vw;
+        margin-left:13vw;
+    }
+    .estrutura{
+        position:absolute;
+        top:250vw;
+        left:20vw;
+        text-transform:uppercase;
+        font-size:3vw;
+    }
+    .joguinho{
+        font-weight: 900;
+        font-size: 3.3vw;
+        font-weight: 600;
+        display: flex;
+        justify-content: flex-end;
+    }
+    span{
+        font-weight: 900;
+        margin-left:1vw;
+    }
+    ul{
+       
+    }
+    h2{
+        display:flex;
+        justify-content: flex-end;
+        font-size:4vw;
+        font-weight: 600;
+    }
+    li{
+        display:flex;
+        justify-content: flex-end;
+        margin-top: 1vw;
+        font-size:3vw;
+        
+    }
+    li:hover{
+        cursor:pointer;
+        background-color:#FF6347;
+        color:white ;
+    }
+    .mulher{
+     position: absolute;
+     width:30vw;
+     top:250vw;
+     left:70vw;
+    }
+    .bonecovermelho{
+        width:49vw;
+        height:65vw ;
+        margin-left:1vw;
+        margin-top:90vw;
+    }
+    .fundo{
+        background-color:#2D2D2D;
+        background-size: cover;
+        height: 265vh;
+        margin-top:-14vw;
+    }
+    h3{
+        padding:13vw 13vw 4vw 13vw ;
+        margin-left:4vw;
+        color:white;
+        font-size:3vw;
+    
+    }
+    .espadaverde{
+        width:80vw;
+        margin-left:10vw;
+    }
+    .containerpai{
+        display:block;
+        justify-content: center;
+        align-items: center;
+    }
+    .grafico,.robos,.soldados,.aeronave{
+        margin-left:10vw;
+        width:80vw;
+    }
+    .soldados{
+        width:80vw;
+        margin-left:10vw;
+        margin-top:vw;
+    }
+    .robos{
+        width:80vw;
+        margin-left:10vw;
+        margin-top:vw;
+    }
+    .aeronave{
+        width:80vw;
+        margin-left:10vw;
+    }
+    .opacity{
+        opacity:70%;
+        position:absolute;
+        left:10vw;
+        width:80vw;
+        top:367vw;
+    }
+    .hierarquia{
+        width:99vw;
+        height: 40vh;
+        margin-left:1vw;
+        margin-top:4vw;
+    }
+    figcaption{
+        font-size:1vw;
+        font-weight:200 ;
+        color: white;
+        display:flex;
+        justify-content:flex-end;
+        padding-right:5vw;
+        padding-top:1vw;
+        
+    
+    }
+    .legenda{
+        margin-top:-1vw;
+    }
+    .branco{
+        width:100vw;
+        height:150vw ;
+        position: absolute;
+        left: -30vw;
+        right:2vw;
+        top:630vw;
+    }
+    .agapai{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .agatres{
+        font-size: 3vw;
+    }
+    .fundotres{
+        width:100%;
+        height:40%;
+        background-color: white;
+    }
+    .buttonpai{
+        display:block;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left:70vw;   
+    }
+    button{
+        width:20vw;
+        height: 7vh;
+        background-color: black;
+        font-size:3vw;
+        color:white;
+
+    }
+    .paragrafo{
+        font-size:3.3vw;
+        font-weight: 200;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .numeros{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.3vw;
+        margin-top: 3vw;
+        margin-bottom:2vw ;
+        margin-left:8vw;
+    }
+    .lineum,.linedois,.linetres{
+        width:10vw;
+        border:solid;
+        border-color:black;
+        margin-top:2vw;
+        margin-left:5vw;
+    }
+    .buttonum:hover{
+        font-weight:900;
+    }
+    .buttonprimeiro:hover{
+        cursor:pointer;
+        background-image:conic-gradient(tomato 50%,black 50%) ;
+        
+     
+    }
+    .lineum:hover{
+        border-color: tomato;
+    }
+    .buttondois:hover{
+        font-weight:900;
+    }
+    .buttonsegundo:hover{
+        cursor:pointer;
+        background-image:conic-gradient(tomato 50%,black 50%) ;
+    }
+    .linedois:hover{
+        border-color: tomato;
+    }
+    .buttontres:hover{
+        font-weight:900;
+    }
+    .buttonterceiro:hover{
+        cursor:pointer;
+        background-image:conic-gradient(tomato 50%,black 50%) ;
+    }
+    .linetres:hover{
+        border-color: tomato;
+    }
+    footer{
+        background-color:#FF5A56;
+        width:100vw;
+        height:110vh;
+        position: absolute;
+        top:780vw;
+        
+       
+    }
+    .texto{
+        font-weight: 900;
+        font-size:10vw;
+        color:white;
+        padding-bottom:2vw;
+        padding-top:5vw;
+        padding-left:10vw;
+    }
+    .textodois{
+        font-size:3vw;
+        font-weight: 200;
+        color:white;    
+        display: flex;
+        justify-content: start;
+        padding-left:10vw;
+    }
+    .containerfooter{
+        padding-left:10vw;
+        padding-left:10vw;
+    }
+    .apps{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        padding-right:2vw;
+        padding-top:4vw;
+    }
+    .google,.store{
+        width:30vw;
+        padding-left:2vw;
+    }
+    .linhaum{
+        width:55vw;
+        height:1vh;
+        border:solid;
+        border-color:#d74430 ;
+        margin-top:5vw;
+        margin-right:2vw;
+    }
+    .linhapai{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:2vw;
+    }
+    .logostar{
+        width:30vw;
+    }
+    .logowars{
+    padding-left: 30vw;
+    padding-top: 4vw;
+    padding-bottom:3vw;
+    
+    }
+    .penultimo{
+        padding-top: 2vw;
+        padding-left:25vw;
+        display:flex;
+        justify-content: start;
+        
+    }
+    .ultimo{
+        font-size:3vw;
+        font-weight: 200;
+        color:white;
+    }
+    .ultimos{
+        position:absolute;
+        left:1vw;
+        bottom:vw;
+        top:120vw;
+    }
+    .ultimas{
+        width:100vw;
+        height:100vw;
+    }
+}
+
+
+
+    
