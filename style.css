@@ -342,28 +342,28 @@ padding-top: 4vw;
 padding-bottom:3vw;
 
 }
-.penultimo{
+.class-paragrafo{
     padding-top: 2vw;
     padding-left:8vw;
     display:flex;
     justify-content: start;
     
 }
-.ultimo{
+.texto-penultimo{
     font-size:1.6vw;
     font-weight: 200;
     color:white;
 }
-.ultimos{
+.ultimos-class{
     position:absolute;
     left:50vw;
     bottom:7vw;
 }
-.ultimas{
+.ultimas-image{
     width:48vw;
     height:140vh;
 }
-@media(max-width: 575px){
+@media(max-width: 570px){
     *{
         margin:0;
         padding:0;
@@ -715,29 +715,30 @@ padding-bottom:3vw;
     padding-bottom:3vw;
     
     }
-    .penultimo{
+    .class-paragrafo{
         padding-top: 2vw;
         padding-left:25vw;
         display:flex;
         justify-content: start;
         
     }
-    .ultimo{
+    .texto-penultimo{
         font-size:3vw;
         font-weight: 200;
         color:white;
     }
-    .ultimos{
+    .ultimos-class{
         position:absolute;
         left:1vw;
         bottom:vw;
         top:120vw;
     }
-    .ultimas{
+    .ultimas-image{
         width:100vw;
         height:100vw;
     }
 }
+
 
 
 
